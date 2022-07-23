@@ -31,10 +31,10 @@ module.exports = {
                 country_id INTEGER NOT NULL REFERENCES countries(country_id)
             );
             
-            INSERT INTO cities(name, rating)
-            VALUES('Nairobi', 3), 
-            ('Lagos', 4), 
-            ('Dakar', 5)
+            INSERT INTO cities(name)
+            VALUES('Nairobi'), 
+            ('Lagos'), 
+            ('Dakar')
             ;
 
             insert into countries (name)
